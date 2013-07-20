@@ -1,0 +1,18 @@
+framework: 
+ - "jasmine"
+launch_in_dev: 
+  - "PhantomJS"
+launch_in_ci: 
+  - "PhantomJS"
+src_files:
+  - "frontend/spec/coffeescripts/*.spec.coffee"
+  - "frontend/spec/coffeescripts/**/*.spec.coffee"
+serve_files:
+  - "app/js/*.js"
+  - "app/js/**/*.js"
+  - "frontend/spec/javascripts/*.spec.js"
+  - "frontend/spec/javascripts/**/*.spec.js"
+before_tests: 
+ - "coffee -o frontend/spec/javascripts/ -c frontend/spec/coffeescripts/"
+on_exit: 
+ - "find frontend/spec/javascripts/ -iname '*.spec.js' | xargs rm -rfv"
