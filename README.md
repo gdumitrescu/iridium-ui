@@ -20,3 +20,8 @@ $ cd frontend && bundle exec iridium server
 $ npm install -g phantomjs testem 
 $ testem
 ```
+
+### Credits
+
+[Iridium](https://github.com/radiumsoftware/iridium)
+[Testem](https://github.com/airportyh/testem)
