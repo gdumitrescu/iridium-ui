@@ -23,5 +23,5 @@ $ testem
 
 ### Credits
 
-[Iridium](https://github.com/radiumsoftware/iridium)
-[Testem](https://github.com/airportyh/testem)
+* [Iridium](https://github.com/radiumsoftware/iridium)
+* [Testem](https://github.com/airportyh/testem)
