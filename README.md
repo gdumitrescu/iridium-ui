@@ -25,3 +25,7 @@ $ testem
 
 * [Iridium](https://github.com/radiumsoftware/iridium)
 * [Testem](https://github.com/airportyh/testem)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gdumitrescu/iridium-ui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
